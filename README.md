@@ -1,5 +1,8 @@
 ## Churnalism API
 
+### PLEASE TAKE NOTE:
+Sunlight is a very smart, technically-saavy organization and designed this site to NOT be accessed as an API - most likely because of the computational requirements needed to provide such a service.  Make sure to use this script _lightly_, as in no multi-threading and no serial requests without a brief nap in between.
+
 This python function will submit urls or text to [churnalism.sunlightfoundation.com](http://churnalism.sunlightfoundation.com/), determine whether they have been "churned" and return the url(s) of the original content, the number of characters the documents share, and a link to compare the documents side-by-side on Sunlight Foundation's website.
 
 ### Requirements
