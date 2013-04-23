@@ -30,7 +30,7 @@ python churnalism.py "http://www.cbsnews.com/8301-204_162-57526084/moms-bpa-leve
 
 ### Returns:
 ```
-compare_url: A unique url on sunlight's page to assess this churn request
+compare_url: A unique url on sunlight's page to view this churn request
 input_url: the inputted url (only returned if a url is submitted)
 input_text: the inputted text (only returned if text is submitted)
 matched: True or False - Whether or not churnalism found a match
