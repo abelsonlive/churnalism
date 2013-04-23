@@ -1,4 +1,4 @@
-## Churnalism API
+## Python wrapper for [churnalism.sunlightfoundation.com](http://churnalism.sunlightfoundation.com/)
 
 ### PLEASE TAKE NOTE:
 Sunlight is a very smart, technically-saavy organization and designed this site to NOT be accessed as an API - most likely because of the computational requirements needed to provide such a service.  Make sure to use this script _lightly_, as in no multi-threading and no serial requests without a brief nap in between.
