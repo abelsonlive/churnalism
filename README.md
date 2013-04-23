@@ -1,13 +1,13 @@
-Churnalism API
-===============
-This python function will submit urls or text to [churnalism.sunlightfoundation.com](http://churnalism.sunlightfoundation.com/), determine whether they have been "churned", and return the url(s) of the original content, the number of characters the documents share, and a link to compare the documents side-by-side on Sunlight Foundation's website
+## Churnalism API
+
+This python function will submit urls or text to [churnalism.sunlightfoundation.com](http://churnalism.sunlightfoundation.com/), determine whether they have been "churned" and return the url(s) of the original content, the number of characters the documents share, and a link to compare the documents side-by-side on Sunlight Foundation's website.
 
 ### Requirements
 This function is built on top of three python libraries: `selenium`,`pyvirtualdisplay`, and `BeatifulSoup`.  If you have `pip` installed on your computer, you can install all three by typing the following into your terminal:
 ```
 pip install selenium pyvirtualdisplay BeautifulSoup
 ```
-Then download this folder somewhere that your PYTHONPATH will recognize it.
+Then download this repo somewhere in your PYTHONPATH.
 ### Usage:
 
 _with a url:_
