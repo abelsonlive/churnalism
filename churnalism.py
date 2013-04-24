@@ -48,14 +48,19 @@ def churnalism(url=None, text=None):
 
     # depending on arguments, input url or text form
     if url is not None:
+        
         input_url = browser.find_element_by_id("url")
         input_url.send_keys(url)
         df['input_url'] = url
+        
     elif text is not None:
+        
         input_text = browser.find_element_by_id("text")
         input_text.send_keys(text)
         df['input_text'] = text
+        
     else:
+        
         print "must submit a 'url' or 'text'"
 
     # press the submit button! so cool!
